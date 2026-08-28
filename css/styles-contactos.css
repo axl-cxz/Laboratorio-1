@@ -1,0 +1,84 @@
+
+:root{ 
+    --colorPrimario:#EC111A;
+    --colorSecundario:#082BA5;
+    --colorTerciario:#007BDF;
+    --colorTitulos:#282D31;
+    ---colorParrafos:#53575A;
+    --colorSombras:#282D31;
+    --colorBlanco: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.iconws{
+    position:fixed;
+    left: 1em;
+    bottom: 1em;
+    font-size: 2em;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.3em;
+    box-shadow: 0px 0px 6px #000;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 1em;
+    max-width: 950px;
+    box-shadow: 0 0 6px var(--colorSombras);
+    /* margin: auto; */
+    margin: 12% auto;
+
+}
+
+input{
+    width: 100%;
+    border: none;
+    margin-bottom: .5em;
+    border-radius: 4px;
+    height: 2em;
+    border: 2.5px solid;
+    border-color: #000;
+} 
+
+textarea{
+    width: 100%;
+    max-height: 300px;
+    min-height: 300px;
+    border: 2.5px solid;
+    border-color: #000;
+}
+
+.boton{
+    background-color: var(--colorPrimario);
+    color: #fff;
+    font-weight: 700;
+    transition: background-color .3s ease-in-out;
+} 
+.boton:hover{
+    background-color: var(--colorSecundario);
+}
+
+.N{
+    color: #EC111A;
+    font-weight: 500;
+}
+.Co{
+    color: #EC111A;
+    font-weight: 500;
+}
+.Ce{
+    color: #EC111A;
+    font-weight: 500;
+}
