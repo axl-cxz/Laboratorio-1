@@ -28,17 +28,17 @@
 }
 
 
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 form{
     padding: 1em;
     max-width: 950px;
     box-shadow: 0 0 6px var(--colorSombras);
     /* margin: auto; */
-    margin: 12% auto;
+    margin: auto;
 
 }
 
